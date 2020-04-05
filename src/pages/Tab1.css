@@ -1,0 +1,10 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+.MyIcon {
+  font-size: 30px;
+  color: #003b6d;
+}
+.trophyIcon {
+  padding: 1rem;
+}

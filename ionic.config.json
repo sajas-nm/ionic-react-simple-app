@@ -1,0 +1,7 @@
+{
+  "name": "IonicPoc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

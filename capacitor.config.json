@@ -1,0 +1,7 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "Poc",
+  "webDir": "build",
+  "npmClient": "npm",
+  "linuxAndroidStudioPath": "/usr/local/android-studio-ide-192.6308749-linux/android-studio/bin/studio.sh"
+}
