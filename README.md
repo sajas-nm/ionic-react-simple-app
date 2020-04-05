@@ -12,7 +12,7 @@ Runs the app in the development mode.<br />
 
 Builds the app for production to the `build` folder.<br />
 
-## `ionic run cap android`
+### `ionic run cap android`
 
 open android studio  <br />
 
@@ -21,17 +21,17 @@ open android studio  <br />
 ## steps to create ionic react jsx app and build apk from scratch
 ##################################################################.<br />
 
-## `npx create-react-app my-app`
+### `npx create-react-app my-app`
 
-## `npm i @ionic/react`
+### `npm i @ionic/react`
 
-## `npm install --save @capacitor/core @capacitor/cli`
+### `npm install --save @capacitor/core @capacitor/cli`
 
-## `npx cap init`
+### `npx cap init`
 
-## `npx cap add android`
+### `npx cap add android`
 
-## `ionic run cap android`
+### `ionic run cap android`
 
 
 
