@@ -12,7 +12,7 @@ Runs the app in the development mode.<br />
 
 Builds the app for production to the `build` folder.<br />
 
-## ionic run cap android
+## `ionic run cap android`
 
 open android studio  <br />
 
@@ -31,7 +31,7 @@ open android studio  <br />
 
 ## `npx cap add android`
 
-## ionic run cap android
+## `ionic run cap android`
 
 
 
