@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   IonContent,
   IonHeader,
@@ -10,15 +10,27 @@ import {
   IonCardSubtitle,
   IonCardTitle,
   IonCardContent,
+  IonItem,
+  IonLabel,
+  IonInput,
   // IonItem,
   // IonIcon,
-  // IonLabel,
   // IonButton,
 } from "@ionic/react";
 // import { pin, wifi, wine, warning, walk } from "ionicons/icons";
 import "./Tab2.css";
 
 const Tab2 = () => {
+  const [name, setName] = useState("");
+  const handlerChange = (e) => {
+    // localStorage.setItem("name", e.detail.value);
+    setName(e.detail.value);
+  };
+  // useEffect(() => {
+  //   let name = localStorage.getItem("name");
+  //   setName(name);
+  // }, []);
+
   return (
     <IonPage>
       <IonHeader>
@@ -35,14 +47,15 @@ const Tab2 = () => {
 
         <IonCard>
           <IonCardHeader>
-            <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-            <IonCardTitle>Card Title</IonCardTitle>
+            <IonCardSubtitle>HI!</IonCardSubtitle>
+            <IonCardTitle>{name}</IonCardTitle>
           </IonCardHeader>
 
           <IonCardContent>
-            Keep close to Nature's heart... and break clear away, once in
-            awhile, and climb a mountain or spend a week in the woods. Wash your
-            spirit clean.
+            <IonItem>
+              <IonLabel position="floating">Name</IonLabel>
+              <IonInput onIonChange={handlerChange}></IonInput>
+            </IonItem>
           </IonCardContent>
         </IonCard>
       </IonContent>
