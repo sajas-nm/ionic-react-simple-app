@@ -16,10 +16,7 @@ Builds the app for production to the `build` folder.<br />
 
 open android studio  <br />
 
-##################################################################.<br />
-
 ## steps to create ionic react jsx app and build apk from scratch
-##################################################################.<br />
 
 ### `npx create-react-app my-app`
 
